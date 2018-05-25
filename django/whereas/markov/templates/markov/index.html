@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WHEREAS</title>
+    <meta property="og:title" content="What is an apology without an author?"/>
+    <meta property="og:type" content="text/html"/>
+    <meta property="og:url" content="https://wheareas.rmrm.io"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+          integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="{% static 'markov/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Forum" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <div class="centered">
+        <main role="main">
+
+            <h4 class="display-4 cinzel text-success"><strong><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;&nbsp;WHEREAS</strong>
+            </h4>
+            <hr>
+            <p><strong>What is an apology without an author?</strong></p>
+            <p>WHEREAS uses a generative Markov model to create additional 'Whereas' statements in the style of 107 STAT. 1510. The original text is anonymous enough&mdash;but what happens when you remove the author altogether?</p>
+
+            <p><a class="btn btn-lg btn-success" href="{% url 'apologize' %}" role="button">Generate</a> ...or view some highlights.</p>
+
+        </main>
+        <footer class="footer">
+            <p>
+                <small>Created by <a href="https://rmrm.io" class="text-success">Miles McCain</a> for Ms. H's English 300 class. Design adapted from <a href="http://530zulu.com" class="text-success">530ZULU</a>.</small>
+                <a href="https://github.com/milesmcc/whereas" class="btn btn-outline-success float-md-right">View the
+                    Code</a>
+            </p>
+        </footer>
+    </div>
+</div> <!-- /container -->
+</body>
+</html>
