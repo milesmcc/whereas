@@ -42,7 +42,7 @@ sentences = ["To celebrate the 100th anniversary of the January 17, 1893 overthr
 
 "Whereas the Provisional Government successfully lobbied the Committee on Foreign Relations of the Senate (hereafter referred to in this Resolution as the 'Committee') to conduct a new investigation into the events surrounding the overthrow of the monarchy;",
 
-"Whereas the Committee and its chairman, Senator John Morgan, conducted hearings in Washington, D.C., from December 27, 1893, through February 26, 1894, in which members of the Provisional Grovernment justified and condoned the actions of the United States Minister and recommended annexation of Hawaii;",
+"Whereas the Committee and its chairman, Senator John Morgan, conducted hearings in Washington, D.C., from December 27, 1893, through February 26, 1894, in which members of the Provisional Government justified and condoned the actions of the United States Minister and recommended annexation of Hawaii;",
 
 "Whereas, although the Provisional Government was able to amplify the role of the United States in the overthrow of the Hawaiian dictatorship towards order, it was unable to rally the support from two-thirds of the Senate needed to ratify a treaty of annexation;",
 

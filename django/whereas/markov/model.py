@@ -42,4 +42,4 @@ def compose(words):
     sentence = sentence.replace(" ,", ",").replace(" .", ".").replace(" :", ":").replace(" ;", ";").replace(" '", " ")
     if sentence[-1] != ';':
         sentence = sentence + ";"
-    return sentence
+    return sentence.upper()
